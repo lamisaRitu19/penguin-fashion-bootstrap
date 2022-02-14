@@ -5,9 +5,11 @@ body {
     color: #3E3E3E;
     background: #FFFFFF;
 }
-/* nav {
-    background-color: #FFFBF0;
-} */
+/* nav style */
+nav img {
+    width: 291.11px;
+    height: 39.27px;
+}
 
 /* home styles */
 .home {
@@ -93,6 +95,12 @@ h3 {
 }
 
 @media only screen and (max-width: 576px) {
+    /* nav style */
+    nav img {
+        width: 192.75px;
+        height: 26px;
+    }
+
     /* home styles */
     h1 {
         font-size: 60px;
